@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lalamove Replica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+
+        /* Navbar */
+        nav {
+            background: linear-gradient(to right, #8e4c0f, #c17b36); /* gradient bg */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav img {
+            height: 40px; /* adjusted logo height */
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px; /* font size for the navbar items */
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* main Content */
+        .content {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 100px;
+            align-items: center;
+        }
+
+        .content img {
+            width: 40%; /* adjusted image size */
+            border-radius: 5px;
+        }
+
+        .content .details {
+            width: 50%;
+        }
+
+        .details h2 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .details p {
+            font-size: 16px;
+            color: #333;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .details ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .details li {
+            margin-bottom: 20px; /* spacing between list items */
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .details li img {
+            margin-right: 15px; /* space between icon and text */
+            width: 32px;
+            height: 32px; /* icon size */
+        }
+
+        .details li div {
+            margin: 0; /* ensure no margin for the text container */
+        }
+
+        .details li span {
+            font-size: 18px;
+            font-weight: bold;
+            display: block;
+        }
+
+        .details li small {
+            font-size: 16px;
+            color: #666;
+            margin: 0; /* removed any left margin to align with the title */
+        }
+
+        /* button */
+        .pricing-button {
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .pricing-button a {
+            background-color: #f05a22;
+            color: white;
+            padding: 15px 50px; /* adjusted padding for the button */
+            text-decoration: none;
+            font-size: 22px; /* font size for the button */
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .pricing-button a:hover {
+            background-color: #d14c1b;
+        }
+
+        /* footer */
+        footer {
+            background-color: #f4f4f4;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        /* follow Section */
+        .follow {
+            text-align: left;
+        }
+
+        .follow h3 {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-icons a img {
+            width: 30px;
+            height: 30px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <!-- Image for Logo -->
+        <img src="lalamove.png" alt="Lalamove Logo">
+        <a href="https://www.lalamove.com/en-my/business">Business</a>
+        <a href="https://www.lalamove.com/en-my/personal">Personal</a>
+        <a href="https://www.lalamove.com/en-my/driver">Driver</a>
+        <a href="https://www.lalamove.com/en-my/lalamove-rewards">Rewards</a>
+        <a href="https://www.lalamove.com/en-my/about-lalamove">Company</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="content">
+        <img src="main image.png" alt="Delivery Image">
+        <div class="details">
+            <h2>Your 24/7 delivery partner</h2>
+            <p>Fast. Simple. Affordable.</p>
+            <ul>
+                <li>
+                    <img src="deliverty.png" alt="Service Icon">
+                    <div>
+                        <span>24/7 Service</span>
+                        <small>We’ll be there for you. Same day delivery or next day delivery? It’s your call.</small>
+                    </div>
+                </li>
+                <li>
+                    <img src="get-money.png" alt="Affordable Icon">
+                    <div>
+                        <span>Affordable</span>
+                        <small>Transparent pricing with no hidden costs. Pay directly through the app with various payment options or make a cash payment to our delivery partners.</small>
+                    </div>
+                </li>
+                <li>
+                    <img src="package insurance.png" alt="Vehicles Icon">
+                    <div>
+                        <span>A variety of vehicle choices</span>
+                        <small>Select a vehicle that is compatible with your delivery requirement.</small>
+                    </div>
+                </li>
+                <li>
+                    <img src="tracking.png" alt="Tracking Icon">
+                    <div>
+                        <span>Real-time tracking</span>
+                        <small>Get a bird's eye view of your delivery progress in real-time.</small>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Pricing Button -->
+    <div class="pricing-button">
+        <a href="https://www.lalamove.com/en-my/all-vehicle-pricing-detail">View Complete Pricing Details</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Lalamove 2023. ALL RIGHTS RESERVED</p>
+        <div class="follow">
+            <h3>FOLLOW</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/LalamoveMY"><img src="fb.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/lalamovemy/"><img src="insta.png" alt="Instagram"></a>
+                <a href="https://www.youtube.com/channel/UC2YVWH9ZQC1weHk6iV1Yp1Q"><img src="youtube.png" alt="YouTube"></a>
+                <a href="https://my.linkedin.com/company/lalamove"><img src="linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
